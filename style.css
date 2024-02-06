@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  } /* 0,5 puntos*/
+
+main {/*-> 1,5 puntos */
+    display: flex;   
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+section {
+    background-color: #fabada;    
+}
+
+.uno {
+    border: 5px solid black;
+    padding: 10px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.dos { /*-> 2 puntos en total: uno por la parte de flexbox y otro por el resto*/
+    display: flex;
+    border: 5px solid black;
+    border-radius: 40px;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:40%;
+    justify-content:center;
+
+}
+
+.tres { /*-> 2 puntos en total: uno por la parte de flexbox y otro por el resto*/
+    border: 5px solid black;
+    padding: 10px;
+    width: 20%;
+    height:max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transform: rotate(-15deg);
+}
+
+.box { /*-> 2 puntos en total: uno por la parte de flexbox y otro por el resto*/
+    width: 10px;
+    height: 10px;
+    border: 5px solid green;
+    padding: 25px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    border-radius: 25px 0px 25px 0px;
+}
+
